@@ -29,13 +29,14 @@ class String
 def count_sentences
   final_array = []
   arr = self.split(/[.!?]/)
-  binding.pry
   i=0
-  while i< arr.length
+  while i < arr.length
     if arr[i] != ""
       final_array << arr[i]
     end
   i +=1
   end
   final_array.length
+end
+
 end
