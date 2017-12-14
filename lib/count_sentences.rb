@@ -5,6 +5,7 @@ class String
   def sentence?
     true if seld.end_with?(".")
   end
+  end
 
   def question?
 
