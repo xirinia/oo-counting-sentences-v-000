@@ -26,7 +26,15 @@ class String
     end
   end
 
-  def count_sentences
-
+def count_sentences
+  final_array = []
+  arr = str.split(/[.!?]/)
+  i=0
+  while i< arr.length
+    if arr[i] != ""
+    final_array << arr[i]
+    end
+  i +=1
   end
+  final_array.length
 end
