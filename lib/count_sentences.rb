@@ -29,6 +29,7 @@ class String
 def count_sentences
   final_array = []
   arr = self.split(/[.!?]/)
+  binding.pry
   i=0
   while i< arr.length
     if arr[i] != ""
