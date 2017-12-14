@@ -32,7 +32,7 @@ def count_sentences
   i=0
   while i< arr.length
     if arr[i] != ""
-    final_array << arr[i]
+      final_array << arr[i]
     end
   i +=1
   end
